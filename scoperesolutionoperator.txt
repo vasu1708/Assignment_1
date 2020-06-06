@@ -1,0 +1,16 @@
+SCOPE RESOLUTION OPERATOR:
+
+It is used to define a function outside a class or when we want to use a global variable but also has a local variable with the same name.\
+
+SYNTAX:
+
+::global-variable-name
+
+USES:
+
+1.The :: (scope resolution) operator is used to get hidden names due to variable scopes so that you can still use them. 
+  You can use the unary scope operator if a namespace scope or global scope name is hidden by a particular declaration of an equivalent name 
+  during a block or class.
+2.You can also use the scope resolution operator to use class names or class member names. If a class member name is hidden,
+  you can use it by prefixing it with its class name and the class scope operator.
+3.You can use it to define a class member function outside the class,when it is not defined at the time of defining a class.
